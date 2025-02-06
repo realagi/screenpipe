@@ -1,3 +1,38 @@
+# TODO: Add [Pipe](https://github.com/realagi/screenpipe/tree/main/pipes) with following React interface: 
+
+ - vertical folding panels with "-" / "+" markings and grey headers on the black background
+   - Screen(s)
+      - Screen: Shows streaming of the screen or latest screenshot
+         - OCR Numbered Screen Element Frame Overlay: Can be in focused, selected, normal state, looks like a frame of green, white, grey with number in Ariel black in the corner
+         - "-" / "+" Panel for Accessibitity UI Elements Breakdown
+         - "-" / "+" Panel for List of Text Fields For LLM Generation
+   - Chats
+      - Messages of Computer's Voice Chat (As Heard On Mic)
+         - monospaced dark rainbow colorized of ISO datetime
+         - guessed name of talker in monospaced font with designated to this talker color
+         - heard message in italic Times New Roman
+      - Voice Chat Text Input
+         - button "Say Aloud" with icon only
+      - Chatbot Text Input
+         - Response popup
+            - Go to Chat session button (opens history of previous conversations and full chat interface, tbd, now just opens history)
+   - Popups
+      - Popup Prompt list horizontal container
+         - LRU horizontal stripe of generated slugs of the prompts  
+         - Search field
+            -  Search button
+      - Vertical list of Popup Windows, sorted by screen number they are on / last recently opened
+         -  Popup Window (on pressing on it except of popup window must blink)
+            - gothic, grey id of the physical screen popup window is currently located
+            - white, monospace: Popup Window's Promp slug
+            - grey, times new roman italic in parenthesis: Popup Window's id
+            - close button
+         - "-" / "+" Panel for Popup Prompts editor
+          
+
+
+# TODO: animate interface for mock heard talkers using llm
+
 <img referrerpolicy="no-referrer-when-downgrade" src="https://static.scarf.sh/a.png?x-pxid=c3628864-a0cb-47a1-a822-2f936cff50b2" />
 <p align="center">
    <a href="README.md">English</a> | <a href="README-zh_CN.md">简体中文</a> | <a href="README-ja.md">日本語</a>
